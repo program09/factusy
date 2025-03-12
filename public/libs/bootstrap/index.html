@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Lib</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body class="p-4 ">
+    <div class="app">
+        <div class='card mb-4'>
+            <div class='card-header'>
+                Botones
+            </div>
+            <div class='card-body'>
+                <div class="row">
+                    <div class="col-6 mt-3">
+                        <h5 class='card-title'>Solid</h5>
+
+                        <button type='button' class='btn btn-primary btn-ripple'>Primary</button>
+                        <button type='button' class='btn btn-secondary'>Secondary</button>
+                        <button type='button' class='btn btn-success'>Success</button>
+                        <button type='button' class='btn btn-danger'>Danger</button>
+                        <button type='button' class='btn btn-warning'>Warning</button>
+                        <button type='button' class='btn btn-info'>Info</button>
+                        <button type='button' class='btn btn-light'>Light</button>
+                        <button type='button' class='btn btn-dark'>Dark</button>
+                        <hr>
+                    </div>
+                    <div class="col-6 mt-3">
+                        <h5 class='card-title'>Mica</h5>
+
+                        <button type='button' class='btn btn-primary-mica'>Primary <span class='badge bg-primary'>12</span></button>
+                        <button type='button' class='btn btn-secondary-mica'>Secondary</button>
+                        <button type='button' class='btn btn-success-mica'>Success</button>
+                        <button type='button' class='btn btn-danger-mica'>Danger</button>
+                        <button type='button' class='btn btn-warning-mica'>Warning</button>
+                        <button type='button' class='btn btn-info-mica'>Info</button>
+                        <button type='button' class='btn btn-light-mica'>Light</button>
+                        <button type='button' class='btn btn-dark-mica'>Dark</button>
+                        <hr>
+                    </div>
+
+                    <div class="col-6 mt-3">
+                        <h5 class='card-title'>Outline</h5>
+
+                        <button type='button' class='btn btn-outline-primary'>Primary</button>
+                        <button type='button' class='btn btn-outline-secondary'>Secondary</button>
+                        <button type='button' class='btn btn-outline-success'>Success</button>
+                        <button type='button' class='btn btn-outline-danger'>Danger</button>
+                        <button type='button' class='btn btn-outline-warning'>Warning</button>
+                        <button type='button' class='btn btn-outline-info'>Info</button>
+                        <button type='button' class='btn btn-outline-light'>Light</button>
+                        <button type='button' class='btn btn-outline-dark'>Dark</button>
+                        <hr>
+                    </div>
+
+                    <div class="col-6 mt-3">
+                        <h5 class='card-title'>Spinner</h5>
+                        <div class="df-center gap-3">
+                            <button class='btn btn-primary' type='button' disabled>
+                                <span class='spinner-border spinner-border-sm' role='status' aria-hidden='true'></span>
+                                <span class='text'>Loading...</span>
+                            </button>
+    
+                            <button class='btn btn-primary' type='button' disabled>
+                                <span class='spinner-grow spinner-grow-sm' role='status' aria-hidden='true'></span>
+                                <span class='text'>Loading...</span>
+                            </button>
+    
+                            <button class='btn btn-primary' type='button' disabled>
+                                <span class='spinner-border spinner-border-sm spinner-only' role='status' aria-hidden='true'></span>
+                                <span class='text'>Loading...</span>
+                            </button>
+    
+                            <button class='btn btn-primary' type='button' disabled>
+                                <span class='spinner-grow spinner-grow-sm spinner-only' role='status' aria-hidden='true'></span>
+                                <span class='text'>Loading...</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-footer">
+                Holaa
+            </div>
+        </div>
+        <div class='card mb-4'>
+            <div class='card-header'>
+                Badges
+            </div>
+            <div class='card-body'>
+                <div class="row">
+                    <div class="col-6 mb-3">
+                        <h5>Solid</h5>
+                        <span class='badge bg-primary'>primary</span>
+                        <span class='badge bg-secondary'>secondary</span>
+                        <span class='badge bg-success'>success</span>
+                        <span class='badge bg-danger'>danger</span>
+                        <span class='badge bg-warning'>warning</span>
+                        <span class='badge bg-info'>info</span>
+                        <span class='badge bg-light'>light</span>
+                        <span class='badge bg-dark'>dark</span>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <h5>Mica</h5>
+                        <span class='badge bg-primary-mica'>primary</span>
+                        <span class='badge bg-secondary-mica'>secondary</span>
+                        <span class='badge bg-success-mica'>success</span>
+                        <span class='badge bg-danger-mica'>danger</span>
+                        <span class='badge bg-warning-mica'>warning</span>
+                        <span class='badge bg-info-mica'>info</span>
+                        <span class='badge bg-light-mica'>light</span>
+                        <span class='badge bg-dark-mica'>dark</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class='card mb-4'>
+            <div class='card-header'>
+                Alert
+            </div>
+            <div class='card-body'>
+                <div class="row">
+                    <div class="col-6 mb-3">
+                        <h5>Solid</h5>
+                        <div class='alert alert-primary alert-dismissible fade show' role='alert'>
+                            <strong>Alerta!</strong> message
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                        <div class='alert alert-secondary alert-dismissible fade show' role='alert'>
+                            <strong>Alerta!</strong> message
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                        <div class='alert alert-success alert-dismissible fade show' role='alert'>
+                            <strong>Alerta!</strong> message
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                        <div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                            <strong>Alerta!</strong> message
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                        <div class='alert alert-warning alert-dismissible fade show' role='alert'>
+                            <strong>Alerta!</strong> message
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                        <div class='alert alert-light alert-dismissible fade show' role='alert'>
+                            <strong>Alerta!</strong> message
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                        <div class='alert alert-dark alert-dismissible fade show' role='alert'>
+                            <strong>Alerta!</strong> message
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+
+                    </div>
+                    <div class="col-6 mb-3">
+                        <h5>Mica</h5>
+                        <div class='alert alert-primary-mica alert-dismissible fade show' role='alert'>
+                            <strong>Alerta!</strong> message
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                        <div class='alert alert-secondary-mica alert-dismissible fade show' role='alert'>
+                            <strong>Alerta!</strong> message
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                        <div class='alert alert-success-mica alert-dismissible fade show' role='alert'>
+                            <strong>Alerta!</strong> message
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                        <div class='alert alert-danger-mica alert-dismissible fade show' role='alert'>
+                            <strong>Alerta!</strong> message
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                        <div class='alert alert-warning-mica alert-dismissible fade show' role='alert'>
+                            <strong>Alerta!</strong> message
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                        <div class='alert alert-light-mica alert-dismissible fade show' role='alert'>
+                            <strong>Alerta!</strong> message
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                        <div class='alert alert-dark-mica alert-dismissible fade show' role='alert'>
+                            <strong>Alerta!</strong> message
+                            <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class='card mb-4'>
+            <div class='card-header'>
+                Abatar
+            </div>
+            <div class='card-body'>
+                <div class="avatar-group">
+                    <img class="avatar avatar-1" src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" alt="">
+                    <img class="avatar avatar-2" src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" alt="">
+                    <img class="avatar avatar-3" src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" alt="">
+                    <img class="avatar avatar-4" src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" alt="">
+                </div>
+
+                <div class="avatar-group-show">
+                    <img class="avatar avatar-3" src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" alt="">
+                    <img class="avatar avatar-3" src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" alt="">
+                    <img class="avatar avatar-3" src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class='card mb-4'>
+            <div class='card-header'>
+                Modal
+            </div>
+            <div class='card-body'>
+                <button type='button' class='btn btn-primary' data-bs-toggle='modal' data-bs-target='#modalId'>
+                    Launch demo modal
+                </button>
+                <div class='modal fade' id='modalId' tabindex='-1' data-bs-backdrop='static' data-bs-keyboard='false'>
+                    <div class='modal-dialog'>
+                        <div class='modal-content'>
+                            <div class='modal-header'>
+                                <h5 class='modal-title' id='modalIdLabel'>Modal title</h5>
+                                <button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
+                            </div>
+                            <div class='modal-body'>
+                                Modal content
+                            </div>
+                           <div class='modal-footer'>
+                               <button type='button' class='btn btn-light-mica' data-bs-dismiss='modal'>Cerrar</button>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class='btn btn-primary' type='button' data-bs-toggle='offcanvas' data-bs-target='#offcanvas'>
+                    Button with data-bs-target
+                </button>
+                <div class='offcanvas offcanvas-end' data-bs-backdrop='false' data-bs-scroll='true' data-bs-keyboard='false' tabindex='-1' id='offcanvas'>
+                    <div class='offcanvas-header'>
+                        <h5 class='offcanvas-title'>Offcanvas</h5>
+                        <button type='button' class='btn-close text-reset' data-bs-dismiss='offcanvas'></button>
+                    </div>
+                    <div class='offcanvas-body'>
+                        Content offcanvas
+                    </div>
+                    <div class="offcanvas-footer">
+                        <button type='button' class='btn btn-primary btn-ripple'>text</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class='card mb-4'>
+            <div class='card-header'>
+                Forms
+            </div>
+            <div class='card-body'>
+                <div class="row">
+                    <div class="col-4">
+                        <div class='mb-3'>
+                            <label for='email' class='form-label'>Text</label>
+                            <input type='text' class='form-control' id='email' name='email' placeholder='Text'>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class='mb-3'>
+                            <label for='' class='form-label'>Select</label>
+                            <select class='form-select' id='' name='' >
+                                <option selected>Seleccione una opción</option>
+                                <option value='1'>One</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class='mb-3'>
+                            <label for='email' class='form-label'>Number</label>
+                            <input type='number' class='form-control' id='email' name='email' placeholder='Number'>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class='mb-3'>
+                            <label for='email' class='form-label'>Date</label>
+                            <input type='date' class='form-control' id='email' name='email' placeholder='Number'>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class='mb-3'>
+                            <label for='email' class='form-label'>Time</label>
+                            <input type='time' class='form-control' id='email' name='email' placeholder='Number'>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class='mb-3'>
+                            <label for='email' class='form-label'>File</label>
+                            <input type='file' class='form-control' id='email' name='email' placeholder='Number'>
+                        </div>
+                    </div>
+                    <div class='mb-3'>
+                        <label for='' class='form-label'></label>
+                        <textarea class='form-control' id='' name='' placeholder='' disabled rows='3'></textarea>
+                    </div>
+                    <div class="col-4">
+                        <div class='mb-3'>
+                            <label for='' class='form-label'>Select</label>
+                            <select class='form-select' id='' name='' >
+                                <option selected>Seleccione una opción</option>
+                                <option value='1'>One</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="row">
+                    <div class="col-4">
+                        <div class='form-check'>
+                            <input class='form-check-input' type='checkbox' value id='check' name='check'>
+                            <label class='form-check-label' for='check'>
+                                CheckBox
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class='form-check'>
+                            <input class='form-check-input' type='radio' value name='radio' id='radio-1'>
+                            <label class='form-check-label' for='radio-1'>
+                                CheckBox
+                            </label>
+                        </div>
+                        <div class='form-check'>
+                            <input class='form-check-input' type='radio' value name='radio' id='radio-2'>
+                            <label class='form-check-label' for='radio-2'>
+                                CheckBox
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Theme</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class='card mb-3'>
+            <div class='card-header'>
+                Dropdown
+            </div>
+            <div class='card-body'>
+                <div class='spinner-border text-primary' role='status'>
+                    <span class='visually-hidden'>Loading...</span>
+                </div>
+                <div class='spinner-grow text-primary' role='status'>
+                    <span class='visually-hidden'>Loading...</span>
+                </div>
+                <button class="btn-icon"></button>
+                <div class="row">
+                    <div class="col-4">
+                        <div class='dropdown  dropdown-menu-end'>
+                            <button class='btn btn-secondary' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>
+                                dd
+                            </button>
+                            <ul class='dropdown-menu rounded-padding' aria-labelledby='dropdownMenuButton1'>
+                                <div class="dropdown-header">
+                                    Menú de acciones
+                                </div>
+                                <li><a class='dropdown-item' href='#'>Eliminar</a></li>
+                                <li><a class='dropdown-item' href='#'>Modificar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class='dropdown dropdown-menu-end'>
+                            <button class='btn btn-secondary' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>
+                                dd
+                            </button>
+                            <ul class='dropdown-menu' aria-labelledby='dropdownMenuButton1'>
+                                <div class="dropdown-header">
+                                    Menú de acciones
+                                </div>
+                                <li><a class='dropdown-item' href='#'>Eliminar</a></li>
+                                <li><a class='dropdown-item' href='#'>Modificar</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-4"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class='card mb-3'>
+            <div class='card-header'>
+                Tabs
+            </div>
+            <div class='card-body'>
+               <ul class='nav nav-pills mb-2' id='pills-tab' role='tablist'>
+                   <li class='nav-item'>
+                       <button class='nav-link active btn-ripple' data-bs-toggle='pill' data-bs-target='#tab-uno' type='button'>Home</button>
+                   </li>
+                   <li class='nav-item'>
+                       <button class='nav-link btn-ripple' data-bs-toggle='pill' data-bs-target='#tab-dos' type='button'>Profile</button>
+                   </li>
+                   <li class='nav-item'>
+                       <button class='nav-link btn-ripple' data-bs-toggle='pill' data-bs-target='#tab-tres' type='button'>Contact</button>
+                   </li>
+               </ul>
+               <div class='tab-content' id='pills-tabContent'>
+                   <div class='tab-pane fade show active' id='tab-uno'>1...</div>
+                   <div class='tab-pane fade' id='tab-dos'>2...</div>
+                   <div class='tab-pane fade' id='tab-tres'>3...</div>
+               </div>
+            </div>
+        </div>
+
+        <div class='card'>
+            <div class='card-header'>
+                Breadcrumb
+            </div>
+            <div class='card-body'>
+                <div class="row">
+                    <div class="col-4">
+                        <div>
+                            <nav class="breadcrumb-content">
+                                <h6>Pagename</h6>
+                                <ol class='breadcrumb'>
+                                    <li class='breadcrumb-item'><a href='#'>Home</a></li>
+                                    <li class='breadcrumb-item active' aria-current='page'>Dashboard</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div>
+                            <nav class="breadcrumb-content">
+                                <h6>Pagename</h6>
+                                <ol class='breadcrumb'>
+                                    <li class='breadcrumb-item'><a href='#'>Home</a></li>
+                                    <li class='breadcrumb-item active' aria-current='page'>Dashboard</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div>
+                            <nav class="breadcrumb-content">
+                                <ol class='breadcrumb'>
+                                    <li class='breadcrumb-item'><a href='#'>Home</a></li>
+                                    <li class='breadcrumb-item active' aria-current='page'>Dashboard</li>
+                                </ol>
+                                <h6>Pagename</h6>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap.bundle.min.js"></script>
+
+    <script>
+        
+    </script>
+</body>
+</html>

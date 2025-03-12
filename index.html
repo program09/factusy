@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factusy</title>
+    <!-- ─── Links Required ──────────────────────────────────────────── -->
+    <link rel="stylesheet" href="public/libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="public/libs/scrool/scrool.css">
+    <link rel="stylesheet" href="public/app/css/icons.css">
+    <link rel="stylesheet" href="public/app/css/facty.css">
+    <!-- ─── Links Required ──────────────────────────────────────────── -->
+    
+</head>
+<!--side-show   side-rounded  main-circle dark  side-dark-->
+<body class="side-show">
+    <!-- ─── Sidebar ─────────────────────────────────────────────────── -->
+    <aside class="sidebar">
+        <div class="side-content">
+            <div class="side-header">
+                <img class="logo-dark" src="public/app/images/3.png" alt="">
+                <img class="logo-light" src="public/app/images/1.png" alt="">
+                <button class="btn-icon side-btn btn-side-side">
+                    <span class="icon-close-01"></span>
+                </button>
+            </div>
+            <div class="side-body">
+
+                <div class="side-user df-center gap-2">
+                    <img class="avatar avatar-2" src="public/app/images/2.png" alt="">
+                    <div class="w-75">
+                        <p class="text-dot">Yordi Alcántara Paico dsdfs</p>
+                        <span class='badge bg-success-mica'>Activo</span>
+                    </div>
+                </div>
+                <ul class="side-menu">
+                    <li class="side-item active">
+                        <a href="index.html" class="side-link">
+                            <div class="link-content">
+                                <div class="df-center gap-2">
+                                    <span class="icon-20 icon-grid-duotone"></span>
+                                    Dashboard
+                                </div>
+                                <div class="df-center gap-2">
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="side-item side-item-submenu">
+                        <a href="" class="side-link side-link-submenu">
+                            <div class="link-content">
+                                <div class="df-center gap-2">
+                                    <span class="icon-20 icon-users-duotone"></span>
+                                    Usuarios
+                                </div>
+                                <div class="df-center gap-2">
+                                    <span class="icon-15 icon-right"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="side-submenu">
+                            <a href="users.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Usuarios
+                            </a>
+                            <a href="new-user.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Nuevo usuario
+                            </a>
+                            <a href="roles.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Roles & Permisos
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="side-item side-item-submenu">
+                        <a href="" class="side-link side-link-submenu">
+                            <div class="link-content">
+                                <div class="df-center gap-2">
+                                    <span class="icon-20 solar--bill-check-bold-duotone"></span>
+                                    Documentos
+                                </div>
+                                <div class="df-center gap-2">
+                                    <span class="icon-15 icon-right"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="side-submenu">
+                            <a href="boletas.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Boletas
+                            </a>
+                            <a href="facturas.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Facturas
+                            </a>
+                            <a href="notas.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Notas de crédito
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="side-item side-item-submenu">
+                        <a href="" class="side-link side-link-submenu">
+                            <div class="link-content">
+                                <div class="df-center gap-2">
+                                    <span class="icon-20 solar--box-bold-duotone"></span>
+                                    Almacén
+                                </div>
+                                <div class="df-center gap-2">
+                                    <span class="icon-15 icon-right"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="side-submenu">
+                            <a href="almacenes.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Almacenes
+                            </a>
+                            <a href="products.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Productos
+                            </a>
+                            <a href="categories.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Categorías
+                            </a>
+                            <a href="units.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Unidades de medida
+                            </a>
+                            <a href="kardex.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Kardex
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="side-item side-item-submenu">
+                        <a href="" class="side-link side-link-submenu">
+                            <div class="link-content">
+                                <div class="df-center gap-2">
+                                    <span class="icon-20 icon-shop-bold-duotone"></span>
+                                    Ventas
+                                </div>
+                                <div class="df-center gap-2">
+                                    <span class="icon-15 icon-right"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="side-submenu">
+                            <a href="new-sale.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Nueva venta
+                            </a>
+                            <a href="sales-report.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Reporte de ventas
+                            </a>
+                            <a href="clients.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Clientes
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="side-item side-item-submenu">
+                        <a href="" class="side-link side-link-submenu">
+                            <div class="link-content">
+                                <div class="df-center gap-2">
+                                    <span class="icon-20 solar--cash-out-bold-duotone"></span>
+                                    Caja
+                                </div>
+                                <div class="df-center gap-2">
+                                    <span class="icon-15 icon-right"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="side-submenu">
+                            <a href="cajas.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Reporte de caja
+                            </a>
+                            <a href="startcaja.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Iniciar caja
+                            </a>
+                            <a href="arqueo.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Arqueo de caja
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="side-item side-item-submenu">
+                        <a href="" class="side-link side-link-submenu">
+                            <div class="link-content">
+                                <div class="df-center gap-2">
+                                    <span class="icon-20 solar--city-bold-duotone"></span>
+                                    Sucursales
+                                </div>
+                                <div class="df-center gap-2">
+                                    <span class="icon-15 icon-right"></span>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="side-submenu">
+                            <a href="sucursales.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Sucursales
+                            </a>
+                            <a href="new-sucursal.html" class="sublink">
+                                <span class="icon-15 icon-right"></span>
+                                <span class="icon-20 icon-check-duotone"></span>
+                                Nueva sucursal
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="side-footer">
+                <button class="btn btn-primary-mica w-100 text-start df-center-between p-2 px-3">
+                    Cerrar sesión
+                    <span class='badge bg-primary'>Activo</span>
+                </button>
+            </div>
+        </div>
+    </aside>
+    <!-- ─── Sidebar ─────────────────────────────────────────────────── -->
+
+    <div class="content-app">
+        <header class="header">
+            <div class="header-content">
+                <div class="header-left df-center gap-2">
+                    <button class="btn-icon side-btn">
+                        <span class="icon-menu-01"></span>
+                    </button>
+                </div>
+                <div class="header-right df-center gap-2">
+                    <button class="btn-icon" data-bs-toggle='offcanvas' data-bs-target='#app-mode'>
+                        <span class="icon-app-dots-duotone"></span>
+                    </button>
+                    <div class='dropdown'>
+                        <button class='btn-user' type='button' id='dropdownMenuButton1' data-bs-toggle='dropdown' aria-expanded='false'>
+                            <img src="public/app/images/4.png" alt="" class="avatar avatar-2">
+                            <span>Username</span>
+                        </button>
+                        <ul class='dropdown-menu rounded-padding' aria-labelledby='dropdownMenuButton1'>
+                            <div class="dropdown-header">
+                                <div class="theme-content df-center-between">
+                                    <p>Noche</p>
+                                    <div class='form-check form-switch'>
+                                        <input class='form-check-input' type='checkbox' id='theme-mode'>
+                                    </div>
+                                </div>
+                            </div>
+                            <li class="dropdown-divider"></li>
+                            <li><a class='dropdown-item' href='settings.html'>Configuraciones</a></li>
+                            <li><a class='dropdown-item' href='login.html'>Cerrar sesión</a></li>  
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main-content slot">
+                <div class="loader-slot"></div>
+                <section class="page-title mb-4">
+                    <nav class="breadcrumb-content">
+                        <h6 class="page-title">Pagename</h6>
+                        <ol class='breadcrumb'>
+                            <li class='breadcrumb-item'><a href='index.html'>Home</a></li>
+                            <li class='breadcrumb-item active' aria-current='page'>Dashboard</li>
+                        </ol>
+                    </nav>
+                </section>
+                <div class="slot-content">
+                    <section class="section px-3">
+                        <h6 class="title-section mb-3">Reporte</h6>
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6">
+                                <div class="box-info cl-blue bg-primary-mica">
+                                    <h5>Usuarios</h6>
+                                    <p>120</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6">
+                                <div class="box-info cl-blue bg-secondary-mica">
+                                    <h5>Ventas hoy</h6>
+                                    <p>120</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6">
+                                <div class="box-info cl-blue bg-success-mica">
+                                    <h5>Clientes</h6>
+                                    <p>120</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6">
+                                <div class="box-info cl-blue bg-danger-mica">
+                                    <h5>Documentos</h6>
+                                    <p>120</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="section section mt-4 px-3">
+                        <h6 class="title-section mb-3">Reportes gráficos</h6>
+                        <div class="row">
+                            <div class="col-md-12 col-12">
+                                <div class='card'>
+                                    <div class='card-header'>
+                                        Productos por agotarce
+                                    </div>
+                                    <div class='card-body'>
+                                        <div class='table-responsive'>
+                                            <table id='' class='table table-borderless align-middle'>
+                                                <thead>
+                                                    <tr>
+                                                        <th scope='col'>Código</th>
+                                                        <th scope='col'>Producto</th>
+                                                        <th scope='col'>Categoría</th>
+                                                        <th scope='col'>Cantidad</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td scope='row'>2</td>
+                                                        <td>Jacob</td>
+                                                        <td>Jacob</td>
+                                                        <td>Jacob</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class='card-footer df-center-end'>
+                                        <a href="" class="btn btn-secondary-mica">Productos</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class='card'>
+                                    <div class='card-header'>
+                                        Ventas del mes
+                                    </div>
+                                    <div class='card-body'>
+                                        <canvas id="chart-1"></canvas>
+                                    </div>
+                                    <div class='card-footer df-center-end'>
+                                        <a href="" class="btn btn-secondary-mica">Reporte de ventas</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class='card'>
+                                    <div class='card-header'>
+                                        Documentos generados
+                                    </div>
+                                    <div class='card-body'>
+                                        <canvas id="chart-documentos"></canvas>
+                                    </div>
+                                    <div class='card-footer df-center-end'>
+                                        <a href="" class="btn btn-secondary-mica">Documentos</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class='card'>
+                                    <div class='card-header'>
+                                        Productos por categorías
+                                    </div>
+                                    <div class='card-body'>
+                                        <canvas id="chart-categories"></canvas>
+                                    </div>
+                                    <div class='card-footer df-center-end'>
+                                        <a href="" class="btn btn-secondary-mica">Productos</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-content">
+                <p>Power by <a href="">Codapy</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <div class='offcanvas offcanvas-end' data-bs-backdrop='true' data-bs-scroll='true' data-bs-keyboard='false' tabindex='-1' id='app-mode'>
+        <div class='offcanvas-header'>
+            <h5 class='offcanvas-title'>Offcanvas</h5>
+            <button type='button' class='btn-close text-reset' data-bs-dismiss='offcanvas'></button>
+        </div>
+        <div class='offcanvas-body'>
+
+            <div class='form-check mb-3'>
+                <input class='form-check-input' type='radio' value="side-rounded" name='mode' id='side-rounded'>
+                <label class='form-check-label' for='side-rounded'>
+                    Bordes redondos
+                </label>
+            </div>
+            <div class='form-check mb-3'>
+                <input class='form-check-input' type='radio' value="main-circle" name='mode' id='main-circle'>
+                <label class='form-check-label' for='main-circle'>
+                    Main circulo
+                </label>
+            </div>
+            <div class='form-check mb-3'>
+                <input class='form-check-input' type='radio' value="main-circle" name='mode' id='mode-none'>
+                <label class='form-check-label' for='mode-none'>
+                    Main simple
+                </label>
+            </div>
+            <div class='form-check form-switch mb-3'>
+                <input class='form-check-input' type='checkbox' value id='side-dark' name=''>
+                <label class='form-check-label' for='side-dark'>
+                    Adide dark
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- ─── Scripts Required ────────────────────────────────────────── -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+    <script src="public/libs/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="public/libs/scrool/scrool.js"></script>
+    <script src="public/app/js/facty.js"></script>
+    <!-- ─── Scripts Required ────────────────────────────────────────── -->
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="public/app/js/pages/dashboard.js"></script>
+    <script>
+        $(document).ready(function () {
+            const ventasDiarias = [[1, 150],[2, 200],[3, 300],[4, 250],[5, 400],[6, 350],[7, 500],[8, 450],[9, 600],[10, 550]];
+            salesMonth(ventasDiarias)
+            
+            const data = {// dia, cantidad
+                boletas: [[1, 10],[2, 15],[3, 20],[4, 25],[5, 30],],
+                facturas: [[1, 5],[2, 10],[3, 15],[4, 20],[5, 25],],
+                notasCredito: [[1, 2],[2, 3],[3, 4],[4, 5],[5, 6],],
+            };
+            docByType(data)
+
+            const dataCategory = [
+                ['Electrónica', 50],
+                ['Ropa', 30],
+                ['Hogar', 20],
+                ['Juguetes', 40],
+                ['Deportes', 25],
+            ];
+            byCategory(dataCategory)
+        });
+    </script>
+</body>
+</html>
